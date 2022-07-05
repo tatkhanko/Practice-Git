@@ -29,11 +29,11 @@
  ``` git push origin --all ```
 ***
 
-3. В ветке BagReports сделать текстовый документ со структурой баг репорта
+3. В ветке BugReports сделать текстовый документ со структурой баг репорта
 
-``` git checkout Bag Reports ```
+``` git checkout Bug Reports ```
 
-``` nano bagStructure.txt ```
+``` nano BugStructure.txt ```
 
 ***
 
@@ -41,17 +41,17 @@
 
 ``` git add . ```
 
-``` git commit -am "bagReportStructure" ```
+``` git commit -am "BugReportStructure" ```
 
 ``` git push ```
 
 ***
 
-5. Вмержить ветку Bag Reports в Main
+5. Вмержить ветку Bug Reports в Main
 
  ``` git checkout main ```
 
- ``` git merge BagReports ```
+ ``` git merge BugReports ```
 
  ***
 
@@ -59,7 +59,7 @@
 
  ``` git add . ```
 
- ``` git commit - am "bagReportStructure" ```
+ ``` git commit - am "BugReportStructure" ```
 
  ``` git push ```
  ** *
